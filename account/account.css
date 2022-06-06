@@ -1,0 +1,75 @@
+.signUp-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.signUp-container h1{
+  color: darkorange;
+}
+html{
+  scroll-behavior: smooth;
+}
+.bi-x-lg {
+  margin-left: 340px;
+}
+
+.signUp-content {
+  height: 400px;
+  width: 400px;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 1em;
+  position: relative;
+}
+
+input {
+  margin: 20px auto;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid grey;
+}
+.input-group-text {
+  height: 50%;
+  margin-top: 20px;
+}
+.input-group-text,
+.form-control {
+  border-radius: 0.5rem;
+}
+.btn-success {
+  background-color: darkorange;
+  border: none !important;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s all;
+}
+.btn-success:hover {
+  background-color: darkorange;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+}
+.text-white-50 {
+  text-decoration: none;
+}
+.text-white-50:hover {
+  text-decoration: underline;
+}
+.input-group .input-group-text:nth-of-type(2) {
+  cursor: pointer;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 200px;
+}

@@ -1,0 +1,101 @@
+.text-decoration-none {
+  font-size: 1rem;
+}
+.navbar-brand span {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: darkorange;
+  width: 0%;
+  content: "";
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+.input-group-text,
+.form-control {
+  border-radius: 0.5rem;
+}
+/* img {
+  height: 54rem;
+} */
+footer > .footer-container {
+  display: block;
+}
+
+/* josh */
+.buttons {
+  background-color: #000000;
+  color: #ffffff;
+  padding : 0.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+/* vinay joshva ( 22/05/22 ) */
+.bg-light {
+  background-color: transparent !important;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 200px;
+}
+.carousel-caption {
+  bottom: 220px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color: darkorange;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: darkorange;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #000000;
+  margin-top: 15px;
+  border-radius: 0.5rem;
+}
+#account-click span {
+  color: darkorange;
+  font-size: 1em;
+}
+.btn-group .btn-dark{
+  border: 1px solid darkorange;
+  background-color: transparent;
+  color: darkorange;
+}
+.btn-group .btn-dark:hover {
+  background-color: darkorange;
+  color: white;
+}

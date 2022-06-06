@@ -1,0 +1,128 @@
+body {
+  /* background-color: #264653;
+  background-color: #212f45; */
+  /* background-color: #081c15; */
+  /* background-color: #212121; */
+  background: linear-gradient(90deg, black, #0F2027, #203A43, #2C5364, black 95%);
+}
+.text-decoration-none {
+  font-size: 1rem;
+}
+.navbar-brand span {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: darkorange;
+  width: 0%;
+  content: "";
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+.input-group-text,
+.form-control {
+  border-radius: 0.5rem;
+}
+/* img {
+  height: 54rem;
+} */
+
+/* josh */
+.buttons {
+  background-color: #000000;
+  color: #ffffff;
+  padding : 0.5rem;
+  text-align: center;
+  border-radius: 0.6rem;
+}
+
+/* vinay joshva ( 22/05/22 ) */
+.bg-light {
+  background-color: transparent !important;
+}
+
+#account-click span {
+  color: darkorange;
+  font-size: 1em;
+}
+.btn-group .btn-dark{
+  border: 1px solid darkorange;
+  background-color: transparent;
+  color: darkorange;
+}
+.btn-group .btn-dark:hover {
+  background-color: darkorange;
+  color: white;
+}
+section {
+  padding: 50px;
+  background: linear-gradient(90deg,#434343,#000000);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 2rem;
+  margin : 30px;
+}
+
+section div:nth-of-type(1) img{
+  border-radius: 30px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+section div:nth-of-type(2) {
+  text-align: left;
+}
+section div:nth-of-type(2) .car-info{
+  font-size: 1.7em;
+  font-weight: lighter;
+  color:rgb(255, 255, 255);
+}
+section div:nth-of-type(2) button {
+  padding: 7px 25px;
+  background-color: darkorange;
+  border: none;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+section div:nth-of-type(2) button:hover {
+  background-color: rgb(255, 154, 31);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color:#000000;
+  transition: box-shadow background-color 0.2s;
+}
+.container .row .col{
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: red; */
+}
+.container .row .col:nth-of-type(1){
+  margin-left: 3em;
+
+}
+.container .row .col:nth-of-type(2){
+  align-items: center;
+
+}
+
+.infoToBuyer{
+  font-size: 1.7em;
+  font-weight: lighter;
+  color:rgb(255, 255, 255);
+}
